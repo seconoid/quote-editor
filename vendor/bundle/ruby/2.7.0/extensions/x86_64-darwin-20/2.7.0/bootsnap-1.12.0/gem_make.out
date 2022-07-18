@@ -1,0 +1,15 @@
+current directory: /Users/nakayama.akito/MyWorks/quote-editor/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.12.0/ext/bootsnap
+/Users/nakayama.akito/.rbenv/versions/2.7.6/bin/ruby -I /Users/nakayama.akito/.rbenv/versions/2.7.6/lib/ruby/2.7.0 -r ./siteconf20220718-5543-1ui87it.rb extconf.rb
+creating Makefile
+
+current directory: /Users/nakayama.akito/MyWorks/quote-editor/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.12.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/nakayama.akito/MyWorks/quote-editor/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.12.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/nakayama.akito/MyWorks/quote-editor/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.12.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20220718-5543-1bp1586/bootsnap
