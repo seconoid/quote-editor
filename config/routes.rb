@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   devise_for :users
   resources :quotes
+  resources :line_item_dates, expect: [:index, :show]
 end
