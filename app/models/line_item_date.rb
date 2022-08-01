@@ -6,6 +6,6 @@ class LineItemDate < ApplicationRecord
   scope :ordered, -> { order(date: :asc) }
 
   def previous_date
-    quote.line_item_date.ordered.where("date < ?", date).last
+    quote.line_item_dates.ordered.where("date < ?", date).last
   end
 end
